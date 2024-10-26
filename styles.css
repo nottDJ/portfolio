@@ -32,13 +32,13 @@ section {
     margin: 20px 0;
     padding: 15px;
     background: #000000; /* Dark grey for section background */
-    color: #000000; /* Light grey for text color */
+    color: #ffffff; /* Light grey for text color */
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); /* Adjusted shadow to be white with low opacity */
+    box-shadow: 0 2px 5px rgb(253, 253, 253); /* Adjusted shadow to be white with low opacity */
 }
 
 section h2 {
-    color: #000000; /* Bright blue for section headings */
+    color: #fa0303; /* Bright blue for section headings */
 }
 
 /* Link Styles */
