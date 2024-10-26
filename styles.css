@@ -17,7 +17,7 @@ body {
 /* Header Styles */
 header {
     background: #000000; /* Sets the background color to black (#000000) */
-    color: white; /* Sets the text color to white (#ffffff) */
+    color: rgb(0, 0, 0); /* Sets the text color to white (#ffffff) */
     padding: 20px; /* Adds 20px padding inside the header */
     text-align: center; /* Centers the text horizontally */
     border-radius: 5px; /* Rounds the corners of the header with a 5px radius */
