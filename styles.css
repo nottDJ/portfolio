@@ -31,7 +31,7 @@ header h1 {
 section {
     margin: 20px 0; /* Adds a 20px margin above and below each section */
     padding: 15px; /* Adds 15px padding inside each section */
-    background: white; /* Sets the background color to white (#ffffff) */
+    background: rgb(0, 0, 0); /* Sets the background color to white (#ffffff) */
     border-radius: 5px; /* Rounds the corners of each section with a 5px radius */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow with a horizontal offset of 0, vertical offset of 2px, blur radius of 5px, and a very light black color with 10% opacity */
 }
