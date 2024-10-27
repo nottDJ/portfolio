@@ -9,22 +9,23 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #1f34a9; /* Changed to black */
+    background-color: #e3dbd0; /* Changed to black */
     color: #00067d; /* Changed to light grey for readability */
     padding: 20px;
-    background: linear-gradient(to right, #940888, #000fe1, #ba0000); /* Gradient with three colors */
+    
 
     
 }
 
 /* Header Styles */
 header {
-    background: #000000; /* Dark grey to differentiate from the body background */
+    background: #878278; /* Dark grey to differentiate from the body background */
     color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgb(255, 0, 0);
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+    background: linear-gradient(to right, #ff0a6c, #2d27ff); /* Gradient with 2 colors */
     /*background: linear-gradient(to right, #040404, #feb47b); /* Gradient from left to right */
     
     
@@ -42,11 +43,12 @@ section {
     background: #372e2e; /* Dark grey for section background */
     color: #ffffff; /* Light grey for text color */
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgb(255, 0, 0); /* Adjusted shadow to be white with low opacity */
+    background: linear-gradient(to right, #ff0a6c, #2d27ff); /* Gradient with 2 colors */
+    box-shadow: 0 2px 5px rgb(0, 0, 0); /* Adjusted shadow to be white with low opacity */
 }
 
 section h2 {
-    color: #bc07f9; /* Bright blue for section headings */
+    color: #ffffff; /* Bright blue for section headings */
 
 }
 
