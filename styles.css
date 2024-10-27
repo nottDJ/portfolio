@@ -9,18 +9,25 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #000000; /* Changed to black */
+    background-color: #1f34a9; /* Changed to black */
     color: #00067d; /* Changed to light grey for readability */
     padding: 20px;
+    background: linear-gradient(to right, #940888, #000fe1, #ba0000); /* Gradient with three colors */
+
+    
 }
 
 /* Header Styles */
 header {
-    background: #e40beb; /* Dark grey to differentiate from the body background */
-    color: rgb(8, 253, 0);
+    background: #000000; /* Dark grey to differentiate from the body background */
+    color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
     border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(255, 0, 0);
+    /*background: linear-gradient(to right, #040404, #feb47b); /* Gradient from left to right */
+    
+    
 }
 
 header h1 {
@@ -31,14 +38,16 @@ header h1 {
 section {
     margin: 20px 0;
     padding: 15px;
+    text-align: center;
     background: #372e2e; /* Dark grey for section background */
-    color: #ecff60; /* Light grey for text color */
+    color: #ffffff; /* Light grey for text color */
     border-radius: 5px;
     box-shadow: 0 2px 5px rgb(255, 0, 0); /* Adjusted shadow to be white with low opacity */
 }
 
 section h2 {
-    color: #52006d; /* Bright blue for section headings */
+    color: #bc07f9; /* Bright blue for section headings */
+
 }
 
 /* Link Styles */
@@ -53,10 +62,13 @@ a:hover {
 
 /* List Styles */
 ul {
-    list-style: disc;
-    padding-left: 20px;
+    list-style: disc;               /* Default bullet points */
+    padding-left: 0;               /* Remove left padding to allow centering */
+    text-align: center;            /* Center the text inside the ul */
 }
 
 ul li {
-    margin: 5px 0;
+    margin: 5px 0;                /* Space between list items */
+    display: inline-block;         /* This allows li elements to be centered */
+    text-align: center;            /* Center the text within li */
 }
