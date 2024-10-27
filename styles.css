@@ -9,14 +9,14 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #000000; /* Changed to black */
+    background-color: #f5f3f3; /* Changed to black */
     color: #fff6f6; /* Changed to light grey for readability */
     padding: 20px;
 }
 
 /* Header Styles */
 header {
-    background: #000000; /* Dark grey to differentiate from the body background */
+    background: #ffffff; /* Dark grey to differentiate from the body background */
     color: white;
     padding: 20px;
     text-align: center;
@@ -31,10 +31,10 @@ header h1 {
 section {
     margin: 20px 0;
     padding: 15px;
-    background: #000000; /* Dark grey for section background */
+    background: #372e2e; /* Dark grey for section background */
     color: #ffffff; /* Light grey for text color */
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgb(253, 253, 253); /* Adjusted shadow to be white with low opacity */
+    box-shadow: 0 2px 5px rgb(255, 0, 0); /* Adjusted shadow to be white with low opacity */
 }
 
 section h2 {
