@@ -10,14 +10,14 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #000000; /* Changed to black */
-    color: #fff6f6; /* Changed to light grey for readability */
+    color: #00067d; /* Changed to light grey for readability */
     padding: 20px;
 }
 
 /* Header Styles */
 header {
     background: #e40beb; /* Dark grey to differentiate from the body background */
-    color: white;
+    color: rgb(8, 253, 0);
     padding: 20px;
     text-align: center;
     border-radius: 5px;
@@ -32,13 +32,13 @@ section {
     margin: 20px 0;
     padding: 15px;
     background: #372e2e; /* Dark grey for section background */
-    color: #ffffff; /* Light grey for text color */
+    color: #ecff60; /* Light grey for text color */
     border-radius: 5px;
     box-shadow: 0 2px 5px rgb(255, 0, 0); /* Adjusted shadow to be white with low opacity */
 }
 
 section h2 {
-    color: #fa0303; /* Bright blue for section headings */
+    color: #52006d; /* Bright blue for section headings */
 }
 
 /* Link Styles */
